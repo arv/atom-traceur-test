@@ -1,0 +1,17 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.highlight.test-highlight > .region {
+	border-bottom: 1px dashed @text-color-error;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+}
+
+.line-number.cursor.line.test-highlight,
+.line-number.test-highlight {
+	background-color: @background-color-error !important;
+}
